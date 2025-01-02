@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "len",
+						"type": "uint256"
+					}
+				],
+				"name": "cal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/02/gas.sol": "gasLess"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/02/gas.sol": {
+			"keccak256": "0x9e377b20f52faa17ce8f445f1e92adaf3bfa2bc2217fafdd79dd426b3fdd06bf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e3ae97d464cea1ba8bb40bec1bdb06ba1e6d54b0f852266ec1f73e6454772e9",
+				"dweb:/ipfs/QmZViT4Q5PLd2U1p2VGmqovqkr2a8Dz6zcm86S1hkxuZCH"
+			]
+		}
+	},
+	"version": 1
+}

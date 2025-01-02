@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_secondsToIncrease",
+						"type": "uint256"
+					}
+				],
+				"name": "increaseLockTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "lockTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/7001/TimeLock.sol": "TimeLock"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/7001/SafeMath.sol": {
+			"keccak256": "0xffbfe902e4f533ed8eeee8fc7cdaf036af7c949e67b10b4f47e48c09424323e2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ea9fde1ad71f27e0b7ee7648231bef7ef39b9f759fa2a63319240993bfee3e7",
+				"dweb:/ipfs/QmQnGWRYDHgNpqz1MzLHRm4Jzis3HVHJyMECybarLcBNY6"
+			]
+		},
+		"contracts/7001/TimeLock.sol": {
+			"keccak256": "0x49dcd9d26e888b9571adf1631c0623947f984cd929ecfb6dfb44eb4e6ff57cc6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://24981071eada7d5eed57bb364ce1e1ab33951bb30213d4cd3562b0dda148ee3c",
+				"dweb:/ipfs/QmPbxhG5R1hni4MdApyExX1F3KSsemYJhB7Ja69VsiH3AH"
+			]
+		}
+	},
+	"version": 1
+}

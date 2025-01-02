@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "getArrSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1401/Practise.sol": "Utils"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1401/Practise.sol": {
+			"keccak256": "0xa7fa17c7211eb458cfa3ba3fac53f91a72b7b256044b93d8320670b6f86824ea",
+			"urls": [
+				"bzz-raw://6083e99ea4ad61c117210b17e2924878544943e3a674d16ca5cc64e9dfe8fe7c",
+				"dweb:/ipfs/QmcimJi4SVpfqobyqc55G2kVChkbSj9awWswHoAQXNhXrC"
+			]
+		}
+	},
+	"version": 1
+}

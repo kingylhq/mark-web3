@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1401/Immutable.sol": "Immutable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1401/Immutable.sol": {
+			"keccak256": "0x00dc7b4e8f46c136ec7e23fe03af6b66f240089ae5dc91729e7ddab30dc056a3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0412282f19d0b42aff92e36dcf1d0089cadab25f426dd181a4eaa66ffe0977b4",
+				"dweb:/ipfs/QmXVkbf5RAWz2i5J3vB6xdMubLvmSHpNEMibhvqfDsLhge"
+			]
+		}
+	},
+	"version": 1
+}

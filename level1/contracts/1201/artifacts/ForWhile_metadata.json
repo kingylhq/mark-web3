@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "n",
+						"type": "uint16"
+					}
+				],
+				"name": "sumToNDoWhile",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "n",
+						"type": "uint16"
+					}
+				],
+				"name": "sumToNFor",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "n",
+						"type": "uint16"
+					}
+				],
+				"name": "sumToNWhile",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/12/ForWhile.sol": "ForWhile"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/12/ForWhile.sol": {
+			"keccak256": "0x3267ccaaf1faa6b36e139853c7520cbf57ca05b34c6074fc9c340db9eb84ddce",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a1d5d376ad5a41d0fa6a2e774732c4b195b2b91965eecc009690028c18720cb",
+				"dweb:/ipfs/QmYu7SmRtA4UVhB5Kybj9WmNPxaVcBtgEKvi7mwJccFLd3"
+			]
+		}
+	},
+	"version": 1
+}

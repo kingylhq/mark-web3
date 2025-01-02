@@ -1,0 +1,161 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract ERC777Token",
+						"name": "token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "givers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "userData",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "operatorData",
+						"type": "bytes"
+					}
+				],
+				"name": "tokensReceived",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/03/erc777/Merit.sol": "Merit"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/03/erc777/ERC1820Registry.sol": {
+			"keccak256": "0x6fce8afa6b9a252e6f064f6122dfd334deda8212def3b6ac2e4a53a8ae238947",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d85a8a3edccc72dbe0537ee802c8269fbf1aeaf4b944681d8ca1bb1c5c3f0c74",
+				"dweb:/ipfs/QmPEDGLGT1ELtwa1YN8WyneFwTLEbxsxoYGscDQGEJ57id"
+			]
+		},
+		"contracts/03/erc777/IERC1820ImplementerInterface.sol": {
+			"keccak256": "0x174c7e504ada35a8ab37e4aecf36cb6b61da00fd9ce927edfb2e2ee14ac43314",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b34c21b3982f573a796a322e9854763d2f5c3c21fa4383a7b4e45abf46bb0588",
+				"dweb:/ipfs/QmXQijcc1roRzGC2eyu92XCdvZ71CBdEyZfcUwBSS2nrW5"
+			]
+		},
+		"contracts/03/erc777/IERC777.sol": {
+			"keccak256": "0x7cb62cc97e9783b0f151497f37f59e0090f4c417c87102a9bf54849f6152f608",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f89cfefdebb0cf3983b48717f5f4dcd051cd1a032ed1d9011f6b7e4792d2502d",
+				"dweb:/ipfs/QmbVjiT8Mm6u8L9B4NGSZ9TYcNr4FRXeHfXEfSezLtfQYx"
+			]
+		},
+		"contracts/03/erc777/IERC777Token.sol": {
+			"keccak256": "0x7f18314b357d095ce7c6a4d11da4bf71352d0ad64a3e5ee023c804876916f7da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef8132dec320556b3af6b4cd17119605333b11912896207330782a007637d19d",
+				"dweb:/ipfs/QmTsMLcVaUnXxyCzLCiEWncdtRWTAWSEPEytSEiHdyzM2A"
+			]
+		},
+		"contracts/03/erc777/IERC777TokensRecipient.sol": {
+			"keccak256": "0x7fd93e738ac9699e9dad4370626816837ec60ac3b61d3fbde22f7f364f81a88e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f9ceac9318735d585565cc66b2ef820c2765364a07d77f56f839be0d6bc85427",
+				"dweb:/ipfs/QmXJfsobmbGTquGRq1N4ZCaCnwxhV48XcyyQtfxgwjKZxy"
+			]
+		},
+		"contracts/03/erc777/Merit.sol": {
+			"keccak256": "0xfed09a81d3fa38bfb78854062aa37f9ed02036c80ed88ba496187a59c61402c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://540a337d4ca668e513c78714b4d94296ce619d00e60e9f9e3fdcf13fcc3235e1",
+				"dweb:/ipfs/QmbvZyRfSv5xRVt727mQtwcrf6csJCuCinF5BdCFMTKRJ2"
+			]
+		}
+	},
+	"version": 1
+}

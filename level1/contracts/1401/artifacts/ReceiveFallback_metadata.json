@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1401/ReceiveFallback.sol": "ReceiveFallback"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1401/ReceiveFallback.sol": {
+			"keccak256": "0x2356c6fbf0bb71839678b1f0fa618d0e3d36e94e261635a7cc7c3109cddf22ff",
+			"urls": [
+				"bzz-raw://bf2dbee92b4f9e212df1e73bcd7838d3dd7c5b0ca52b40b86be27074fc9bc29d",
+				"dweb:/ipfs/QmSYeDBhdfSAonYPqMLrrWusSTkHey1WirYDz82esxJeMJ"
+			]
+		}
+	},
+	"version": 1
+}

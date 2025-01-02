@@ -1,0 +1,303 @@
+{
+	"id": "ad1ebe77afa4abfdaf798528e74effb6",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/03/erc777/IERC1820ImplementerInterface.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.26;\n\n\n/// @dev 如果合约为其他的地址实现了接口， 则必须实现这个接口。\n\ninterface IERC1820ImplementerInterface { \n\n    /// @notice 指示合约是否为地址 “addr” 实现接口 “interfaceHash”。\n    /// @param interfaceHash 接口名称的 keccak256 哈希值\n    /// @param addr 为哪一个地址实现接口\n    /// @return 只有当合约为地址'addr'实现'interfaceHash'时返回 ERC1820_ACCEPT_MAGIC\n    function canImplementInterfaceForAddress(bytes32 interfaceHash,address addr) external view returns(bytes32); \n\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"contracts": {
+			"contracts/03/erc777/IERC1820ImplementerInterface.sol": {
+				"IERC1820ImplementerInterface": {
+					"abi": [
+						{
+							"inputs": [
+								{
+									"internalType": "bytes32",
+									"name": "interfaceHash",
+									"type": "bytes32"
+								},
+								{
+									"internalType": "address",
+									"name": "addr",
+									"type": "address"
+								}
+							],
+							"name": "canImplementInterfaceForAddress",
+							"outputs": [
+								{
+									"internalType": "bytes32",
+									"name": "",
+									"type": "bytes32"
+								}
+							],
+							"stateMutability": "view",
+							"type": "function"
+						}
+					],
+					"devdoc": {
+						"details": "如果合约为其他的地址实现了接口， 则必须实现这个接口。",
+						"kind": "dev",
+						"methods": {
+							"canImplementInterfaceForAddress(bytes32,address)": {
+								"params": {
+									"addr": "为哪一个地址实现接口",
+									"interfaceHash": "接口名称的 keccak256 哈希值"
+								},
+								"returns": {
+									"_0": "只有当合约为地址'addr'实现'interfaceHash'时返回 ERC1820_ACCEPT_MAGIC"
+								}
+							}
+						},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"gasEstimates": null,
+						"legacyAssembly": null,
+						"methodIdentifiers": {
+							"canImplementInterfaceForAddress(bytes32,address)": "249cb3fa"
+						}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"interfaceHash\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"canImplementInterfaceForAddress\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"\\u5982\\u679c\\u5408\\u7ea6\\u4e3a\\u5176\\u4ed6\\u7684\\u5730\\u5740\\u5b9e\\u73b0\\u4e86\\u63a5\\u53e3\\uff0c \\u5219\\u5fc5\\u987b\\u5b9e\\u73b0\\u8fd9\\u4e2a\\u63a5\\u53e3\\u3002\",\"kind\":\"dev\",\"methods\":{\"canImplementInterfaceForAddress(bytes32,address)\":{\"params\":{\"addr\":\"\\u4e3a\\u54ea\\u4e00\\u4e2a\\u5730\\u5740\\u5b9e\\u73b0\\u63a5\\u53e3\",\"interfaceHash\":\"\\u63a5\\u53e3\\u540d\\u79f0\\u7684 keccak256 \\u54c8\\u5e0c\\u503c\"},\"returns\":{\"_0\":\"\\u53ea\\u6709\\u5f53\\u5408\\u7ea6\\u4e3a\\u5730\\u5740'addr'\\u5b9e\\u73b0'interfaceHash'\\u65f6\\u8fd4\\u56de ERC1820_ACCEPT_MAGIC\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"canImplementInterfaceForAddress(bytes32,address)\":{\"notice\":\"\\u6307\\u793a\\u5408\\u7ea6\\u662f\\u5426\\u4e3a\\u5730\\u5740 \\u201caddr\\u201d \\u5b9e\\u73b0\\u63a5\\u53e3 \\u201cinterfaceHash\\u201d\\u3002\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/03/erc777/IERC1820ImplementerInterface.sol\":\"IERC1820ImplementerInterface\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/03/erc777/IERC1820ImplementerInterface.sol\":{\"keccak256\":\"0x07db8af8771268cde762dced2e31aafd625ad5d436c766b4e7e0e41e26046c32\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7616805af94682b2f3a197e5ad67dc76f930aae9e3228fbe27c46b55a367c0c1\",\"dweb:/ipfs/QmXXzmiDuPq1YZZDDV6YHiW2oAgJ1Yfd9K6ApF21xsp4yN\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {
+							"canImplementInterfaceForAddress(bytes32,address)": {
+								"notice": "指示合约是否为地址 “addr” 实现接口 “interfaceHash”。"
+							}
+						},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"contracts/03/erc777/IERC1820ImplementerInterface.sol": {
+				"ast": {
+					"absolutePath": "contracts/03/erc777/IERC1820ImplementerInterface.sol",
+					"exportedSymbols": {
+						"IERC1820ImplementerInterface": [
+							13
+						]
+					},
+					"id": 14,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.8",
+								".26"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:23:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "IERC1820ImplementerInterface",
+							"contractDependencies": [],
+							"contractKind": "interface",
+							"documentation": {
+								"id": 2,
+								"nodeType": "StructuredDocumentation",
+								"src": "58:89:0",
+								"text": "@dev 如果合约为其他的地址实现了接口， 则必须实现这个接口。"
+							},
+							"fullyImplemented": false,
+							"id": 13,
+							"linearizedBaseContracts": [
+								13
+							],
+							"name": "IERC1820ImplementerInterface",
+							"nameLocation": "158:28:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"documentation": {
+										"id": 3,
+										"nodeType": "StructuredDocumentation",
+										"src": "195:300:0",
+										"text": "@notice 指示合约是否为地址 “addr” 实现接口 “interfaceHash”。\n @param interfaceHash 接口名称的 keccak256 哈希值\n @param addr 为哪一个地址实现接口\n @return 只有当合约为地址'addr'实现'interfaceHash'时返回 ERC1820_ACCEPT_MAGIC"
+									},
+									"functionSelector": "249cb3fa",
+									"id": 12,
+									"implemented": false,
+									"kind": "function",
+									"modifiers": [],
+									"name": "canImplementInterfaceForAddress",
+									"nameLocation": "509:31:0",
+									"nodeType": "FunctionDefinition",
+									"parameters": {
+										"id": 8,
+										"nodeType": "ParameterList",
+										"parameters": [
+											{
+												"constant": false,
+												"id": 5,
+												"mutability": "mutable",
+												"name": "interfaceHash",
+												"nameLocation": "549:13:0",
+												"nodeType": "VariableDeclaration",
+												"scope": 12,
+												"src": "541:21:0",
+												"stateVariable": false,
+												"storageLocation": "default",
+												"typeDescriptions": {
+													"typeIdentifier": "t_bytes32",
+													"typeString": "bytes32"
+												},
+												"typeName": {
+													"id": 4,
+													"name": "bytes32",
+													"nodeType": "ElementaryTypeName",
+													"src": "541:7:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_bytes32",
+														"typeString": "bytes32"
+													}
+												},
+												"visibility": "internal"
+											},
+											{
+												"constant": false,
+												"id": 7,
+												"mutability": "mutable",
+												"name": "addr",
+												"nameLocation": "571:4:0",
+												"nodeType": "VariableDeclaration",
+												"scope": 12,
+												"src": "563:12:0",
+												"stateVariable": false,
+												"storageLocation": "default",
+												"typeDescriptions": {
+													"typeIdentifier": "t_address",
+													"typeString": "address"
+												},
+												"typeName": {
+													"id": 6,
+													"name": "address",
+													"nodeType": "ElementaryTypeName",
+													"src": "563:7:0",
+													"stateMutability": "nonpayable",
+													"typeDescriptions": {
+														"typeIdentifier": "t_address",
+														"typeString": "address"
+													}
+												},
+												"visibility": "internal"
+											}
+										],
+										"src": "540:36:0"
+									},
+									"returnParameters": {
+										"id": 11,
+										"nodeType": "ParameterList",
+										"parameters": [
+											{
+												"constant": false,
+												"id": 10,
+												"mutability": "mutable",
+												"name": "",
+												"nameLocation": "-1:-1:-1",
+												"nodeType": "VariableDeclaration",
+												"scope": 12,
+												"src": "599:7:0",
+												"stateVariable": false,
+												"storageLocation": "default",
+												"typeDescriptions": {
+													"typeIdentifier": "t_bytes32",
+													"typeString": "bytes32"
+												},
+												"typeName": {
+													"id": 9,
+													"name": "bytes32",
+													"nodeType": "ElementaryTypeName",
+													"src": "599:7:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_bytes32",
+														"typeString": "bytes32"
+													}
+												},
+												"visibility": "internal"
+											}
+										],
+										"src": "598:9:0"
+									},
+									"scope": 13,
+									"src": "500:108:0",
+									"stateMutability": "view",
+									"virtual": false,
+									"visibility": "external"
+								}
+							],
+							"scope": 14,
+							"src": "148:464:0",
+							"usedErrors": [],
+							"usedEvents": []
+						}
+					],
+					"src": "32:580:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

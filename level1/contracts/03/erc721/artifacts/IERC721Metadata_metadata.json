@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_symbol",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "tokenURI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "ERC-721 非同质化代币标准, 可选元信息扩展  Note: 按 ERC-165 标准，接口 id 为 0x5b5e139f ",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"tokenURI(uint256)": {
+					"notice": "URI 也许指向一个符合“ERC721 元数据 JSON Schema”的JSON 文件"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/03/erc721/IERC721Metadata.sol": "IERC721Metadata"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/03/erc721/IERC721Metadata.sol": {
+			"keccak256": "0x32d3226dfdb880d43312c59659b857980c9dca5eec87c33b7e9c3fccd2e4b6fd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a9e2375f4347a29a697bffdcbdf0caa78feab427935af75bf519c72027dd47ac",
+				"dweb:/ipfs/QmSM3Yfivp8VBjYraDURGGVakwCZdZARh2sjGWYPLsKH6r"
+			]
+		}
+	},
+	"version": 1
+}

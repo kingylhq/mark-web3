@@ -1,0 +1,334 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "bytes32",
+						"name": "interfaceHash",
+						"type": "bytes32"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "implementer",
+						"type": "address"
+					}
+				],
+				"name": "InterfaceImplementerSet",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newManager",
+						"type": "address"
+					}
+				],
+				"name": "ManagerChanged",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_interfaceHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "getInterfaceImplementer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "getManager",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "_interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "implementsERC165Interface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "_interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "implementsERC165InterfaceNoCache",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_interfaceName",
+						"type": "string"
+					}
+				],
+				"name": "interfaceHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_interfaceHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "_implementer",
+						"type": "address"
+					}
+				],
+				"name": "setInterfaceImplementer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_newManager",
+						"type": "address"
+					}
+				],
+				"name": "setManager",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "_interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "updateERC165Cache",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"getInterfaceImplementer(address,bytes32)": {
+					"params": {
+						"_addr": "查询地址（如果'_addr'是零地址，则假定为'msg.sender'）。",
+						"_interfaceHash": "查询接口，它是接口名称字符串的 keccak256 哈希值 例如: 'web3.utils.keccak256(\"ERC777TokensRecipient\")' 表示 'ERC777TokensRecipient' 接口."
+					},
+					"returns": {
+						"_0": "返回实现者的地址，没有实现返回 ‘0’"
+					}
+				},
+				"implementsERC165Interface(address,bytes4)": {
+					"params": {
+						"_contract": "要检查的合约地址。",
+						"_interfaceId": "要检查ERC165接口。"
+					},
+					"returns": {
+						"_0": "True 如果合约实现了接口返回 true, 否则false."
+					}
+				},
+				"implementsERC165InterfaceNoCache(address,bytes4)": {
+					"params": {
+						"_contract": "要检查的合约地址。",
+						"_interfaceId": "要检查ERC165接口。"
+					},
+					"returns": {
+						"_0": "True 如果合约实现了接口返回 true, 否则false."
+					}
+				},
+				"setInterfaceImplementer(address,bytes32,address)": {
+					"params": {
+						"_addr": "待设置的关联接口的地址（如果'_addr'是零地址，则假定为'msg.sender'）",
+						"_implementer": "为地址'_addr'实现了 '_interfaceHash'接口的合约地址",
+						"_interfaceHash": "接口，它是接口名称字符串的 keccak256 哈希值 例如: 'web3.utils.keccak256(\"ERC777TokensRecipient\")' 表示 'ERC777TokensRecipient' 接口。"
+					}
+				}
+			},
+			"title": "ERC1820 伪自省注册表合约",
+			"version": 1
+		},
+		"userdoc": {
+			"events": {
+				"InterfaceImplementerSet(address,bytes32,address)": {
+					"notice": "表示合约是'addr'的'interfaceHash'的'实现者'。"
+				},
+				"ManagerChanged(address,address)": {
+					"notice": "表示'newManager'是'addr'的新管理者的地址。"
+				}
+			},
+			"kind": "user",
+			"methods": {
+				"getInterfaceImplementer(address,bytes32)": {
+					"notice": "查询地址是否实现了接口以及通过哪个合约实现的。"
+				},
+				"getManager(address)": {
+					"notice": "获取地址 _addr的管理员"
+				},
+				"implementsERC165InterfaceNoCache(address,bytes4)": {
+					"notice": "在不使用或更新缓存的情况下检查合约是否实现ERC165接口。"
+				},
+				"interfaceHash(string)": {
+					"notice": "计算给定名称的接口的keccak256哈希值。"
+				},
+				"setInterfaceImplementer(address,bytes32,address)": {
+					"notice": "设置某个地址的接口由哪个合约实现，需要由管理员来设置。（每个地址是他自己的管理员，直到设置了一个新的地址）。"
+				},
+				"setManager(address,address)": {
+					"notice": "(传 '0x0' 为地址_addr 重置管理员)"
+				},
+				"updateERC165Cache(address,bytes4)": {
+					"notice": "更新合约是否实现了ERC165接口的缓存。"
+				}
+			},
+			"notice": "该合约是ERC1820注册表的官方实现。",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/03/erc777/ERC1820Registry.sol": "ERC1820Registry"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/03/erc777/ERC1820Registry.sol": {
+			"keccak256": "0xff0084550c75997202740b53e86243c1ae6043804fdf5fc37d13dcb9a31f2cb2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://54392b3207e7511f2cab089de8924bfb95d3a4727aec60509212d93d42136551",
+				"dweb:/ipfs/QmYb5TNB7oTtneTEFZQH3BPU11bX5pY2xKwsAxmVC3ziCc"
+			]
+		},
+		"contracts/03/erc777/IERC1820ImplementerInterface.sol": {
+			"keccak256": "0x174c7e504ada35a8ab37e4aecf36cb6b61da00fd9ce927edfb2e2ee14ac43314",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b34c21b3982f573a796a322e9854763d2f5c3c21fa4383a7b4e45abf46bb0588",
+				"dweb:/ipfs/QmXQijcc1roRzGC2eyu92XCdvZ71CBdEyZfcUwBSS2nrW5"
+			]
+		}
+	},
+	"version": 1
+}

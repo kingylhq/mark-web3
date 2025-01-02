@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "interfaceHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "canImplementInterfaceForAddress",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "如果合约为其他的地址实现了接口， 则必须实现这个接口。",
+			"kind": "dev",
+			"methods": {
+				"canImplementInterfaceForAddress(bytes32,address)": {
+					"params": {
+						"addr": "为哪一个地址实现接口",
+						"interfaceHash": "接口名称的 keccak256 哈希值"
+					},
+					"returns": {
+						"_0": "只有当合约为地址'addr'实现'interfaceHash'时返回 ERC1820_ACCEPT_MAGIC"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"canImplementInterfaceForAddress(bytes32,address)": {
+					"notice": "指示合约是否为地址 “addr” 实现接口 “interfaceHash”。"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/03/erc777/IERC1820ImplementerInterface.sol": "IERC1820ImplementerInterface"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/03/erc777/IERC1820ImplementerInterface.sol": {
+			"keccak256": "0x07db8af8771268cde762dced2e31aafd625ad5d436c766b4e7e0e41e26046c32",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7616805af94682b2f3a197e5ad67dc76f930aae9e3228fbe27c46b55a367c0c1",
+				"dweb:/ipfs/QmXXzmiDuPq1YZZDDV6YHiW2oAgJ1Yfd9K6ApF21xsp4yN"
+			]
+		}
+	},
+	"version": 1
+}

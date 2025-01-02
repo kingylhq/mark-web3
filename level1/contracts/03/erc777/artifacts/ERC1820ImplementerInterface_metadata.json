@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "interfaceHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "canImplementInterfaceForAddress",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/03/erc777/IERC1820ImplementerInterface.sol": "ERC1820ImplementerInterface"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/03/erc777/IERC1820ImplementerInterface.sol": {
+			"keccak256": "0x26df213d9d6ec8676d40ac087ced0cba4683cd3a82b9819d20292ef3b4b26853",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a94b49696469f55783b03cfcc83a21098fc0eb56e185022c5d4062105f16b88",
+				"dweb:/ipfs/QmdiUr2aDUM81MjBag8JMWvHjVEWsdq4F9WbfPc7rYVr3Y"
+			]
+		}
+	},
+	"version": 1
+}

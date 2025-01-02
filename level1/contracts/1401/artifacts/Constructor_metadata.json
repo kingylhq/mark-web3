@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "aVal",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1401/Constructor.sol": "Constructor"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1401/Constructor.sol": {
+			"keccak256": "0xbea488cc8d948032c79478cec6b2fc10679bff12fece1e38bbc4768e4e278966",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e38de81d4c6d0e780a8a8ac3e0757bd60b883aae75d064213a0ecd67d56c9edc",
+				"dweb:/ipfs/QmeVFHq6ESXNqpa8fDyBfAHVtkJgPzRHegYajfAMNhBUC3"
+			]
+		}
+	},
+	"version": 1
+}

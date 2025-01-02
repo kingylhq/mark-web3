@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_interfaceName",
+						"type": "string"
+					}
+				],
+				"name": "interfaceHash",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "register",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/03/ERC165Registry.sol": "ERC165Registry"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/03/ERC165Registry.sol": {
+			"keccak256": "0xee882a435464a4975c848db6a0ec22017c827da02cfe52c95a988f09dc066e46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://48c4e190ef0eca57a0fb210f9466a592ef4cff97756ff666702baef239667f9c",
+				"dweb:/ipfs/Qmdu5B2k3YmjieEU2R3a4Y4qisWWG6TpZAfmKnSDfHk7k3"
+			]
+		},
+		"contracts/03/IERC165.sol": {
+			"keccak256": "0x3f27edf30889c6ebc63c69d17c0452666d16399eadbbf5a2e8c991cba0dcc7f3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e31c62ad1df0f3fd63477b56dcec786d4ba3735d2da3cb116521e96009587371",
+				"dweb:/ipfs/QmT9cpd5L9wscw5ZgZRCmfgZtpBF59YQFRCApn3G5rypYQ"
+			]
+		}
+	},
+	"version": 1
+}

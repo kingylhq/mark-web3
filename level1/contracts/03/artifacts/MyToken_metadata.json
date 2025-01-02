@@ -1,0 +1,305 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Approval",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					}
+				],
+				"name": "allowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/03/MyERCToken.sol": "MyToken"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/03/ERC20.sol": {
+			"keccak256": "0x4a0572550a433f9d1892ec1881385dfc981117e0192f17266f65ab9bed412e22",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://944fd1ebfde20a2d0cb98e54e81193b2d67fcd46a69969b05556a48aa040c701",
+				"dweb:/ipfs/QmaGvKWHRVGzDmYizYvWAryU3b1PnuzVpLVQAHRz32VPFG"
+			]
+		},
+		"contracts/03/ERC20Detailed.sol": {
+			"keccak256": "0x9746a0daee4aa03273dabb647da0db86d2a8ea7851c02ccb7f5bee1f0984b67e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://324a7b902881a1f8e74304d05311fd6875e2174b8c0679c544eda505ae72c7fe",
+				"dweb:/ipfs/QmeNm3pp1s17nWqq3fn21FMeoXUV2efoXnK36UrtqjzvhA"
+			]
+		},
+		"contracts/03/IERC20.sol": {
+			"keccak256": "0x6c30d35f34f66e1cb845ce2573d78c3ea44f85f1e2989a6e63d6607d5bd04ea1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16cfc778df3e33fd70f1793bfbbd7caaa11d978d5e8adb59f198de9b51a32fc0",
+				"dweb:/ipfs/QmbhoUzwnE7SKikPShkVx2xXTwfF8LwFrbnR3zjFJ2TqiM"
+			]
+		},
+		"contracts/03/MyERCToken.sol": {
+			"keccak256": "0x99058e54d22dd48d3fbd7f044aa24ac8b73d04ed3fea61ec663a6195598915ec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://123cab5435a4971823120496a76aaac82aec640374fbb1f9c7db8404278572fa",
+				"dweb:/ipfs/QmaCDSBwYYhqRxopfNPcTZ5fqnp5m1RtXth7dhYLDXvLPZ"
+			]
+		},
+		"contracts/03/SafeMath.sol": {
+			"keccak256": "0x0639c243bfbf804dbe9e9d3688167a4abced058488073a946fd2285c94e0e14c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://227bdffb86ac74e9faf6e3ccd9dfca6a0fc3f631006ba1715cda8eb9647b4076",
+				"dweb:/ipfs/QmcAH8LFDtZnougcCsTmCHQFdvppHXpdBZrXTLHzFQe5V5"
+			]
+		}
+	},
+	"version": 1
+}

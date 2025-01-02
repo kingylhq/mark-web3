@@ -1,0 +1,73 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_14": {
+					"entryPoint": null,
+					"id": 14,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60c060405260056080908152503480156016575f80fd5b50600560a0818152505060805160a051603e60385f395f50505f5050603e5ff3fe60806040525f80fdfea2646970667358221220f9365030d735b52388b46bc2fbe3357b66384290eae5b2e1a0ee1e92c7a5e0d764736f6c634300081a0033",
+			"opcodes": "PUSH1 0xC0 PUSH1 0x40 MSTORE PUSH1 0x5 PUSH1 0x80 SWAP1 DUP2 MSTORE POP CALLVALUE DUP1 ISZERO PUSH1 0x16 JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x5 PUSH1 0xA0 DUP2 DUP2 MSTORE POP POP PUSH1 0x80 MLOAD PUSH1 0xA0 MLOAD PUSH1 0x3E PUSH1 0x38 PUSH0 CODECOPY PUSH0 POP POP PUSH0 POP POP PUSH1 0x3E PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xF9 CALLDATASIZE POP ADDRESS 0xD7 CALLDATALOAD 0xB5 0x23 DUP9 0xB4 PUSH12 0xC2FBE3357B66384290EAE5B2 0xE1 LOG0 0xEE 0x1E SWAP3 0xC7 0xA5 0xE0 0xD7 PUSH5 0x736F6C6343 STOP ADDMOD BYTE STOP CALLER ",
+			"sourceMap": "57:1724:0:-:0;;;1579:1;1560:20;;;;;1642:38;;;;;;;;;;1672:1;1667:6;;;;;;57:1724;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f80fdfea2646970667358221220f9365030d735b52388b46bc2fbe3357b66384290eae5b2e1a0ee1e92c7a5e0d764736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xF9 CALLDATASIZE POP ADDRESS 0xD7 CALLDATALOAD 0xB5 0x23 DUP9 0xB4 PUSH12 0xC2FBE3357B66384290EAE5B2 0xE1 LOG0 0xEE 0x1E SWAP3 0xC7 0xA5 0xE0 0xD7 PUSH5 0x736F6C6343 STOP ADDMOD BYTE STOP CALLER ",
+			"sourceMap": "57:1724:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "infinite",
+				"totalCost": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		}
+	]
+}

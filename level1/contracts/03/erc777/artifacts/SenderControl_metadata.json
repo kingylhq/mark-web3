@@ -1,0 +1,203 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "interfaceHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "canImplementInterfaceForAddress",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
+					}
+				],
+				"name": "setBlack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "userData",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "operatorData",
+						"type": "bytes"
+					}
+				],
+				"name": "tokensToSend",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/03/erc777/SenderControl.sol": "SenderControl"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/03/SafeMath.sol": {
+			"keccak256": "0x0639c243bfbf804dbe9e9d3688167a4abced058488073a946fd2285c94e0e14c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://227bdffb86ac74e9faf6e3ccd9dfca6a0fc3f631006ba1715cda8eb9647b4076",
+				"dweb:/ipfs/QmcAH8LFDtZnougcCsTmCHQFdvppHXpdBZrXTLHzFQe5V5"
+			]
+		},
+		"contracts/03/erc20/IERC20.sol": {
+			"keccak256": "0xd89229c317cf364451607197631fd8219241f41d7f0846454bf5fe90184eb576",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b4e99617e3caeefaf03bdf7dbb8b1f106be0ab30741cb51928b44930e86d8dce",
+				"dweb:/ipfs/Qmcm6FDhF8ZFiwK1cZuK6pNrGyfSUbsCB5aooAAWyfDRw4"
+			]
+		},
+		"contracts/03/erc777/ERC1820Registry.sol": {
+			"keccak256": "0xd534ad6e2f35f35d3bff11ff6076d4bde6901b97909227a46006df8281b70099",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://46c326e21f73b72bfb9a371d58eb76ba24a50bf597d0e96b438cbc252e5c6330",
+				"dweb:/ipfs/QmVUdqjrYxtjyDXqo8ffaPnJsTETKAuxD8RkWGWvHLQ5yH"
+			]
+		},
+		"contracts/03/erc777/IERC1820ImplementerInterface.sol": {
+			"keccak256": "0x44e4b4feeb30c5e77050cd31fe11f6d9dd5ab0924de5a246237da29b8fda659a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cfa7701e621a9bfc62a0a1125ac52efc7a313309431b57eadccac8a5a0173e82",
+				"dweb:/ipfs/QmVCLWeqyGtgJC45y23kiA9fimPDLZxUuRiayZc6zaUFGD"
+			]
+		},
+		"contracts/03/erc777/IERC777.sol": {
+			"keccak256": "0x8ec18376f910d85440654bc781fe8fd2b1b6b61ace14e4607bb949a37713317b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a2cf86f1a79c25e496ca9ddc7e717f5a7d87431cb125fdf8dea9238984cfe106",
+				"dweb:/ipfs/Qmat6ZibLhz7XmpbFx31yz89E2mwDfv9o3DShbMLmY6Dnt"
+			]
+		},
+		"contracts/03/erc777/IERC777Token.sol": {
+			"keccak256": "0x7f18314b357d095ce7c6a4d11da4bf71352d0ad64a3e5ee023c804876916f7da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef8132dec320556b3af6b4cd17119605333b11912896207330782a007637d19d",
+				"dweb:/ipfs/QmTsMLcVaUnXxyCzLCiEWncdtRWTAWSEPEytSEiHdyzM2A"
+			]
+		},
+		"contracts/03/erc777/IERC777TokensRecipient.sol": {
+			"keccak256": "0x7fd93e738ac9699e9dad4370626816837ec60ac3b61d3fbde22f7f364f81a88e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f9ceac9318735d585565cc66b2ef820c2765364a07d77f56f839be0d6bc85427",
+				"dweb:/ipfs/QmXJfsobmbGTquGRq1N4ZCaCnwxhV48XcyyQtfxgwjKZxy"
+			]
+		},
+		"contracts/03/erc777/IERC777TokensSender.sol": {
+			"keccak256": "0x6958daf069cd21875721e124a80a6f6d6eb5d820513eb5224df016a1f3de35e1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d09929fde8c3ffedd439793dba5b44b4e74a0a59c16be0a91bce865329d6ac1d",
+				"dweb:/ipfs/QmTuJ5CZhEZJDbx5NXVTcum7w1PJ86xSxunxPFHyTtJtBT"
+			]
+		},
+		"contracts/03/erc777/SenderControl.sol": {
+			"keccak256": "0x2d5e172286fbb8d5626e867cf86559fd37bd1ded0410ddcf9893894c3bd065d1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://72a9e1475aa35113b5824dae3da8136066fcdb47a8ef5805eed5eee14eec45a6",
+				"dweb:/ipfs/QmZB2dFZdKK1B1pif27uh9M1oYcrfiGYaB6KDVgGhcHtDd"
+			]
+		},
+		"contracts/03/utils/Address.sol": {
+			"keccak256": "0x0db2e112f9455b5ab8fa3ec57b4865c04a20883f1aebc00b3d00535a02720954",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c34543cb119eafe06669053cda33944b4c65970d8a04acb19e45c271f2c6a1ae",
+				"dweb:/ipfs/QmciNZfFWKft1kSiUSy5P5ApcXyrwB5ny4HEXBc31dEyWv"
+			]
+		}
+	},
+	"version": 1
+}

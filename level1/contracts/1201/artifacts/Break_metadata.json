@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "breakOnlyOneLoop",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "input",
+						"type": "string"
+					}
+				],
+				"name": "hasSpace",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/12/Break.sol": "Break"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/12/Break.sol": {
+			"keccak256": "0xaacb0595ed45ca687f919f2f04cb75e223a4cd91f7a9dac22354b5aa7bf18148",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9cfe0e758486896b976b124ff3dd8b86a89ed182acfdd44f72187d0bd27fb856",
+				"dweb:/ipfs/QmPLfSyBCatG3ECX1zEq2JELMQBXsj4Z6Q8cWWHqPAHcfV"
+			]
+		}
+	},
+	"version": 1
+}
