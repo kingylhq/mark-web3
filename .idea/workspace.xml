@@ -4,16 +4,95 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e57b270-cee0-4e9e-82cf-a606f87bea3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/level1/01.区块链技术概览及加密技术作业题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/02.共识机制基础作业题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/03.BTC原理作业题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/04.以太坊原理作业题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/05.如何选用 Solidity 数据结构作业题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/06.ABI 编码作业题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/07.合约升级的方式以及实际操作作业题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/08.将合约编译成其他语言方便调用作业题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level1/09.常见的合约攻击方式以及如何避免作业题.md" afterDir="false" />
+    <list default="true" id="67509adf-0792-41bc-b78e-dfd10992772d" name="Changes" comment="新增合约代码">
+      <change afterPath="$PROJECT_DIR$/level0/01.区块链概念简介.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/02.了解如何使用Solidity.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/03.使用Solidity 编写 Ethereum智能合同.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/04.使用OpenZeppelin创建代币.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/05.以太坊网络基础知识.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/06.加密钱包的使用.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/07.连接并部署到 Ethereum网络.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/08.区块链概念简介作业题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/09.Solidity 经典用例.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/10.以太坊基础知识作业题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/11.加密钱包和网络的使用作业题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/1/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/3/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/3/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/3/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/3/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/3/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/3/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/3/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/4/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/4/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/4/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/5/1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/6/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/7/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/7/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/7/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/7/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/7/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/7/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/7/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/pic/7/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/CDzabZ4I5owzCkxYJXGcb6PSnby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/DHMkbei1ZoZqakxFOskcrrQknMg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/G01Pbyh9voKfrPxdNnwcFRMfnGg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/KC60bGhqcoocedx5XkbcWKFKnic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/OYw4b8uCtoT5qpxxiXTcuYOPnzn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/Pn3Qbeuxkog7KixfIe4cciKKnVd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/QduabrtzaofYqlxd1SkcxWSmnje.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/Sknib4l1roybGpx7FJpcwwkVnJe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/TGeUbEqQKoVRjnx2DCvcRAL1nCb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/W43KbYjuKozv7hxXhMecCepFnJb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/YD7Vb8kNeo2k8KxdOxTcHGvXnTe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/YbGvbI8TloGRANx7grKck2CpnSd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/YpfpbfnajoiZcsxPG6bcp5rfnPd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level0/static/Yt4Sbw7I1oudozxTn3ocnmRMnxg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +105,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2qz4javo7crDPVi12UUry3ovyIO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2r4gAtQxqlvH2zfJZarHQ6SHDjS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,36 +118,47 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ouyangdadi/web3/homework/mark-web3/level1",
+    "last_opened_file_path": "/Users/ouyangdadi/web3/homework/mark-web3/level0",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/level0" />
       <recent name="$PROJECT_DIR$/level1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1e57b270-cee0-4e9e-82cf-a606f87bea3f" name="Changes" comment="" />
-      <created>1735652206909</created>
+      <changelist id="67509adf-0792-41bc-b78e-dfd10992772d" name="Changes" comment="" />
+      <created>1735823621024</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1735652206909</updated>
-      <workItem from="1735652207558" duration="1922000" />
+      <updated>1735823621024</updated>
+      <workItem from="1735823622628" duration="1382000" />
     </task>
+    <task id="LOCAL-00001" summary="新增合约代码">
+      <created>1735824386445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735824386445</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增合约代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增合约代码" />
   </component>
 </project>
